@@ -1,0 +1,2 @@
+Bundle 'nvie/vim-flake8'
+Bundle 'bsnux/vim-gpg'

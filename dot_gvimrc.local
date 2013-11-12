@@ -1,0 +1,10 @@
+colorscheme bsnux
+
+set transparency=0
+
+set guifont=Menlo:h13.5
+
+" keybindings
+nnoremap <D-Left> :bprev<CR>
+nnoremap <D-Right> :bnext<CR>
+ino <C-g> <esc>

@@ -1,0 +1,46 @@
+" Setting colorscheme
+colorscheme monokai
+
+" Enabling mouse
+set mouse=a
+
+" Activating wrapping
+set wrap
+
+" Disabling indent guides
+let g:indent_guides_enable_on_vim_startup = 0
+
+" No folding by default
+set nofoldenable
+
+" Disabling spellchecking
+set nospell
+
+" Modifying default airline separators
+if !exists('g:airline_powerline_fonts')
+    let g:airline_left_sep='»'
+    let g:airline_right_sep='«'
+endif
+
+" python-mode tweaks:
+"  turn off running pylint on file save"
+let g:pymode_lint_write = 0
+"  skipping some errors and warnings
+let g:pymode_lint_ignore = "E501,C0110,C0301"
+
+" syntastic python
+let g:syntastic_python_flake8_args='--ignore=E501,E225'
+let g:syntastic_python_pylint_args='--ignore=E501,E225'
+
+" NERDTree
+let NERDTreeQuitOnOpen = 0
+
+" Vertical line after line 80
+set colorcolumn=81
+
+" Starting Ctrl-P using directory of current file
+let g:ctrlp_working_path_mode = 'ra'
+
+" Memo => commands for using a light colorscheme
+"colorscheme solarized
+"set background=light

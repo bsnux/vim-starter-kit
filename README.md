@@ -88,4 +88,4 @@ Simple and quick cheatsheet.
 
 **Ctrl-n** Activate multiple-cursors
 
-**,c<space>** Comment selected lines
+**,c<space\>** Comment selected lines

@@ -62,6 +62,14 @@ Simple and quick cheatsheet.
 
 ## Tags
 
+How to generate tags:
+
+    $ ctags -R --exclude=".git"
+
+How to install **exuberant-ctags**:
+
+    $ brew install exuberant-ctags
+
 **,tt** Open *TagBar*
 
 **Ctrl-]** Jump to tag

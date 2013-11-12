@@ -26,7 +26,6 @@ Then, you need to create some *symlinks*:
 ## Quick installation
 
     $ curl http://j.mp/spf13-vim3 -L -o - | sh
-
     $ curl https://raw.github.com/bsnux/vim-starter-kit/master/install.sh -L -o - | sh
 
 ## Quick Cheatsheet
@@ -88,3 +87,5 @@ Simple and quick cheatsheet.
 **:retab** Replace tabs for spaces
 
 **Ctrl-n** Activate multiple-cursors
+
+**,c<space>** Comment selected lines

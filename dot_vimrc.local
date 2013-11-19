@@ -41,6 +41,16 @@ set colorcolumn=81
 " Starting Ctrl-P using directory of current file
 let g:ctrlp_working_path_mode = 'ra'
 
+" Keybindings
+"   map CTRL-e to end-of-line (insert mode)
+imap <C-e> <esc>$i
+"   map CTRL-a to beginning-of-line (insert mode)
+imap <C-a> <esc>0i
+"   map CTRL-b to word backward (insert mode)
+imap <C-b> <esc>hi
+"   map CTRL-f to word forward (insert mode)
+imap <C-f> <esc>lli
+
 " Memo => commands for using a light colorscheme
 "colorscheme solarized
 "set background=light

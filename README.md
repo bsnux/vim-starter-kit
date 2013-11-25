@@ -105,3 +105,5 @@ How to install **exuberant-ctags**:
 **Ctrl-n** Activate multiple-cursors
 
 **,c<space\>** Comment selected lines
+
+**,cc** Comment selected lines

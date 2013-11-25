@@ -1,5 +1,6 @@
 " Setting colorscheme
-colorscheme monokai
+" colorscheme monokai
+colorscheme bsnux
 
 " Enabling mouse
 set mouse=a
@@ -39,7 +40,7 @@ let NERDTreeQuitOnOpen = 0
 set colorcolumn=81
 
 " Starting Ctrl-P using directory of current file
-let g:ctrlp_working_path_mode = 'ra'
+""let g:ctrlp_working_path_mode = 'ra'
 
 " Keybindings
 "   map CTRL-e to end-of-line (insert mode)
@@ -54,3 +55,7 @@ imap <C-f> <esc>lli
 " Memo => commands for using a light colorscheme
 "colorscheme solarized
 "set background=light
+
+" Setting Easy Motion colors right on console
+let g:EasyMotion_do_shade = 0
+hi EasyMotionShade ctermfg=white ctermbg=red

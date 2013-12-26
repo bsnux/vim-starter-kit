@@ -84,6 +84,8 @@ How to install **exuberant-ctags**:
 
 **ggVG=** Re-indent file
 
+**=**: Indent selection
+
 ## Git
 
 **,gst** Open a new window executing **git status**
